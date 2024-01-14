@@ -225,8 +225,9 @@ nav li {
 @media screen and (max-width:576px) {
 
     header,
+    .team,
     .feature-content {
-        padding: 20px;
+        padding: 10px;
     }
 
     nav,
@@ -240,8 +241,12 @@ nav li {
         margin: 0 auto;
     }
 
+    .feature-content {
+        width: 100%;
+    }
+
     .feature-img {
-        padding: 0 30px;
+        width: 100%;
     }
 
     .feature-img img {
@@ -272,6 +277,7 @@ nav li {
 @media screen and (min-width:576px) and (max-width:960px) {
 
     header,
+    .team,
     .feature-container {
         padding: 30px;
     }
@@ -285,6 +291,8 @@ nav li {
     .team-pictures {
         gap: 10px;
     }
+
+
 
     nav ul {
 
