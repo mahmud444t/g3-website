@@ -218,8 +218,7 @@ nav li {
 @media screen and (max-width:576px) {
 
     header,
-    .feature-content,
-    .experience-div {
+    .feature-content {
         padding: 20px;
     }
 
@@ -229,12 +228,18 @@ nav li {
         flex-direction: column;
     }
 
+    .experience-div {
+        width: 250px;
+        margin: 0 auto;
+    }
 
+    .feature-img {
+        padding: 0 30px;
+    }
 
     .feature-img img {
         margin: 0;
         width: 100%;
-        padding: 10px;
     }
 
     .team-pictures {
@@ -252,9 +257,8 @@ nav li {
 
     .experience-div {
         position: static;
-        margin: 0 auto;
-        margin-left: 18px;
     }
+
 
 }
 
