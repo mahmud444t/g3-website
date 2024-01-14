@@ -89,6 +89,7 @@ nav li {
 
 /* team section */
 .team {
+    width: 75%;
     max-width: 1440px;
     margin: 0 auto;
     margin-bottom: 8.125rem;
@@ -145,6 +146,7 @@ nav li {
 
 /* feature section */
 .feature {
+    width: 75%;
     max-width: 1440px;
     margin: 0 auto;
     margin-bottom: 8.125rem;
@@ -159,6 +161,7 @@ nav li {
 }
 
 .feature-content {
+    width: 50%;
     padding-right: 9rem;
     padding-top: 2.5rem;
 }
@@ -183,8 +186,12 @@ nav li {
     padding: 30px;
 }
 
+.feature-img {
+    width: 50%;
+}
+
 .feature-img img {
-    height: 90%;
+    width: 100%;
     margin-left: 50px;
 }
 
@@ -196,8 +203,8 @@ nav li {
     text-align: center;
     color: #FFF;
     position: relative;
-    bottom: 130px;
-    padding: 45px 40px;
+    bottom: 80px;
+    padding: 30px 25px;
 }
 
 .year {
